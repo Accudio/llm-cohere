@@ -4,6 +4,8 @@
 [![Changelog](https://img.shields.io/github/v/release/accudio/llm-cohere?include_prereleases&label=changelog)](https://github.com/accudio/llm-cohere/releases)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/accudio/llm-cohere/blob/main/LICENSE)
 
+> LLM Cohere is currently a work-in-progress and cannot be installed with pip. To install, follow directions under "Development"
+
 Plugin for [LLM](https://llm.datasette.io/) adding support for [Cohere](https://cohere.com)'s Generater and Summarize models.
 
 ## Installation
