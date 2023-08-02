@@ -12,3 +12,5 @@ dist
 build
 scripts/
 lib/
+bin/
+pyvenv.cfg
