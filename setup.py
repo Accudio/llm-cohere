@@ -1,7 +1,7 @@
 from setuptools import setup
 import os
 
-VERSION = "0.1"
+VERSION = "1.0"
 
 
 def get_long_description():
@@ -14,7 +14,7 @@ def get_long_description():
 
 setup(
     name="llm-cohere",
-    description="Plugin for LLM adding support for Cohere's Generate model",
+    description="Plugin for LLM adding support for Cohere's Generate and Summarize models",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
     author="Alistair Shepherd",
