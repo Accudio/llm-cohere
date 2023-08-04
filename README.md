@@ -34,7 +34,7 @@ This plugin adds two models. `cohere-generate` uses an input prompt and generate
 ```bash
 llm -m cohere-generate "Seven great names for a pet lemur"
 ```
-PaLM also supports system prompts:
+Cohere also supports system prompts, which are sent to Cohere in the format of `<prompt>: <system prompt>`.
 ```bash
 echo "I like lemurs a lot" | llm -m cohere-generate --system "Translate to german"
 ```

@@ -10,14 +10,6 @@ def register_models(register):
     register(Generate("cohere-generate"))
     register(Summarize("cohere-summarize"))
 
-
-@llm.hookimpl
-def register_commands(cli):
-    @cli.group(name="cohere")
-    def cohere_():
-        "Commands for working directly with Cohere"
-
-
 class Generate(llm.Model):
     needs_key = "cohere"
     key_env_var = "COHERE_API_KEY"
